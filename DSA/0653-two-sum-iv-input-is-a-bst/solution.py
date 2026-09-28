@@ -1,5 +1,6 @@
 class Solution(object):
     def findTarget(self, root, k):
+
         if root is None:
             return False
         left_stack = []
